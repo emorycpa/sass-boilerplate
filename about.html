@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey:400i" rel="stylesheet">
+    <!-- Font Awesome 4.6.3 -->
+    <!--<link href="./font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    
+    <!-- Local Stylesheet -->
+    <!--<link href="../_includes/css/complied.css" rel="stylesheet"/>-->
+    <!--<link href="../_includes/css/font-files.css" rel="stylesheet"/>-->
+    <link href="../_includes/css/front-end-css/fonts.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/shared.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/footer.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/opener.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/news.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/button.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/featured-news.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/homepage-events.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/divider.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/featured-content-blocks.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/cta-above-footer.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/image-with-content.css" rel="stylesheet">
+    <link href="../_includes/css/front-end-css/text-blocks.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="nav-clipping">
+            <img src="../_includes/images/site-wide/oxford-gray-abstract.png" alt="" class="img-responsive background-nav-img" />
+        </div>
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="#">
+                <img src="../_includes/images/site-wide/oxford-college-logo-gold.png" alt="" class="img-responsive hidden-xs hidden-sm" />
+                <img src="https://template.emory.edu/assets/wdg/custom-framework/images/emory-hat-logo.png" alt="" class="img-responsive hidden-md hidden-lg"
+                />
+                <span class="sr-only">Oxford University</span>
+            </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <div class="emory-secondary clearfix">
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="giving">
+                        <a href="#">Giving</a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Information for<span class="fa fa-plus-square-o" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-visible-xs-block">
+                            <li><a href="#">Current Students</a></li>
+                            <li><a href="#">Faculty &amp; Staff</a></li>
+                            <li><a href="#">Parents &amp; Families</a></li>
+                            <li><a href="#">Alumni &amp; Friends</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </div>
+            <form class="header-search in" action="#">
+                <label>
+                    <span class="sr-only">Search</span>
+                    <input type="text" placeholder="Search">
+                </label>
+                <button>
+                    <span class="sr-only">Submit</span><span class="fa fa-search" aria-hidden="true"></span>
+                </button>
+            </form>
+            <div class="emory-primary">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admissions &amp; Aid</a>
+                        <div class="dropdown-menu">
+                            <div class="container dropdown-container">
+                                <div class="row">
+                                    <a class="header-back" href="#"><span class="fa fa-arrow-left" aria-hidden="true"></span> Back to Main Menu</a>
+                                    <div class="col-xs-12 col-sm-12 col-md-4">
+                                        <img src="https://source.unsplash.com/700x360" alt="Placeholder Image" class="img-responsive">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sapien sagittis neque
+                                            sollicitudin condimentum id pharetra tellus.
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-8">
+                                        <div class="header"><a href="#">Admissions &amp; Aid</a></div>
+                                        <div class="drop-down-menu">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                                    <ul class="unstyled">
+                                                        <li class="sub-menu-heading">
+                                                            What is Oxford?
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                                    <ul class="unstyled">
+                                                        <li class="sub-menu-heading">
+                                                            Location
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                                    <ul class="unstyled">
+                                                        <li class="sub-menu-heading">
+                                                            Leadership
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                                    <ul class="unstyled">
+                                                        <li class="sub-menu-heading">
+                                                            Visit Oxford
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Page Title</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <li><a href="#">Campus Experience</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Health Science &amp; Care</a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--/.nav-collapse -->
+    </nav>
+    <img src="../_includes/images/site-wide/oxford-gray-abstract.png" alt="" class="img-responsive background-nav-img hidden-xs hidden-sm" />
+    <div class="relative-div hidden-xs hidden-sm"></div>
+
+
+    <div class="landing-opener">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-11">
+                    <img src="../_includes/images/sections/about/about-opener.png" alt="" class="img-responsive" />
+                    <div class="page-title">About</div>
+                    <h1>Take off from here.<br />Go Anywhere.</h1>
+                </div>
+                <div class="col-xs-12 col-sm-offset-1 col-sm-9">  
+                    <p>It's your turn to soar. Start strong at one of two undergraduate options for first-year Emory University students. Oxford College offers an unusually intensive focus on the liberal arts, leadership, and service as well as the close attention of committed and outstanding faculty. Here, you'll be able to chart your course through Emory, where you can earn a bachelor's degree in the sciences and humanities, business, or nursing. Building on Oxford's solid foundation, there's no limit to where you'll go or what you'll do.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="divider-callouts-bkgd-img-below">
+            <img src="../_includes/images/site-wide/callout-image-below-gray-abstract.png" alt="" class="img-responsive callouts-image-below" />
+            <div class="divider-callouts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                        <h2 class="heading-a reveal">Experience Oxford</h2>
+                        <p class="divider-p">At Oxford, students experience more interactive types of teaching through classes across disciplines that give them the fundamental concepts and principles of the subjects they're studying but move into the realm of real-world discovery through research or work in community settings.</p>
+                    </div>
+                        <div class="col-xs-12 col-sm-4 divider-callout-container">
+                            <div class="divider-callout-block reveal">
+                                <div class="divider-callout-block-img">
+                                    <img src="https://source.unsplash.com/640x360" alt="Placeholder Image" class="img-responsive">
+                                </div>
+                                <div class="divider-callout-block-content">
+                                    <h4 class="block-heading">Fall play takes on big questions</h4>
+                                    <p>J.B., the Pulitzer and Tony award-winning play by American playwright Archibald MacLeish, is the selection for the Oxford students stage this fall.</p>
+                                    <a class="block-link" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 divider-callout-container">
+                            <div class="divider-callout-block reveal">
+                                <div class="divider-callout-block-img">
+                                    <img src="https://source.unsplash.com/640x360" alt="Placeholder Image" class="img-responsive">
+                                </div>
+                                <div class="divider-callout-block-content">
+                                    <h4 class="block-heading">Fall play takes on big questions</h4>
+                                    <p>J.B., the Pulitzer and Tony award-winning play by American playwright Archibald MacLeish, is the selection for the Oxford students stage this fall.</p>
+                                    <a class="block-link" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 divider-callout-container">
+                            <div class="divider-callout-block reveal">
+                                <div class="divider-callout-block-img">
+                                    <img src="https://source.unsplash.com/640x360" alt="Placeholder Image" class="img-responsive">
+                                </div>
+                                <div class="divider-callout-block-content">
+                                    <h4 class="block-heading">Fall play takes on big questions</h4>
+                                    <p>J.B., the Pulitzer and Tony award-winning play by American playwright Archibald MacLeish, is the selection for the Oxford students stage this fall.</p>
+                                    <a class="block-link" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+    
+    
+    <section class="section">
+        <div class="featured-content-blocks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 featured-content-block featured-content-block-content-left">
+                        <div class="row">
+                            <div class="featured-content-image">
+                                <div class="col-xs-12 col-sm-12 col-md-offset-4 col-md-8">
+                                    <img src="https://source.unsplash.com/640x360" alt="Placeholder Image" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="yellow-rectangle-container">
+                                <div class="hidden-xs hidden-sm col-md-5">
+                                    <div class="yellow-rectangle yellow-rectangle-left">
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-5">
+                                
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="featured-content">
+                                            <div class="featured-content-header">
+                                                Question Everything
+                                            </div>
+                                            <div class="featured-content-text">
+                                                Through inquiry-guided and theory practice/service learning classes, Oxford faculty practice more interactive types of teaching. These courses teach students fundamental concepts but move into the realm of real-world discovery through research and work in community settings.
+                                            </div>
+                                            <div class="block-link">
+                                                <a href="#">Learn More</a>
+                                            </div>
+                                            <div class="featured-content-list">
+                                                <ul>
+                                                    <li><a href="#">bullet test</a></li>
+                                                    <li><a href="#">bullet test</a></li>
+                                                    <li><a href="#">bullet test</a></li>
+                                                    <li><a href="#">bullet test</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 blue-icon-left">
+                                        <a href="#">
+                                            <div class="featured-content-icon-left">
+                                                <div class="featured-content-icon">
+                                                    <span class="fa fa-calculator" aria-hidden="true"></span>
+                                                </div>
+                                                <div class="featured-content-icon-label">
+                                                    Experiential Learning
+                                                </div>
+                                            </div>
+                                        </a>  
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 gold-icon-right">
+                                        <a href="#">
+                                            <div class="featured-content-icon-right">
+                                                <div class="featured-content-icon">
+                                                    <span class="fa fa-calculator" aria-hidden="true"></span>
+                                                </div>
+                                                <div class="featured-content-icon-label">
+                                                    Faculty Interaction
+                                                </div>
+                                            </div>
+                                        </a>     
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>        
+                    </div>
+                    
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 featured-content-block featured-content-block-content-right">
+                        <div class="row">
+                            <div class="featured-content-image">
+                                <div class="col-xs-12 col-sm-12 col-md-8">
+                                    <img src="https://source.unsplash.com/640x360" alt="Placeholder Image" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="yellow-rectangle-container">
+                                <div class="hidden-xs hidden-sm col-md-offset-7 col-md-5">
+                                    <div class="yellow-rectangle yellow-rectangle-left">
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="col-xs-12 col-sm-12 col-md-offset-6 col-md-5">
+                                
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="featured-content">
+                                            <div class="featured-content-header">
+                                                Question Everything
+                                            </div>
+                                            <div class="featured-content-text">
+                                                Through inquiry-guided and theory practice/service learning classes, Oxford faculty practice more interactive types of teaching. These courses teach students fundamental concepts but move into the realm of real-world discovery through research and work in community settings.
+                                            </div>
+                                            <div class="block-link">
+                                                <a href="#">Learn More</a>
+                                            </div>
+                                            <div class="featured-content-list">
+                                                <ul>
+                                                    <li><a href="#">bullet test</a></li>
+                                                    <li><a href="#">bullet test</a></li>
+                                                    <li><a href="#">bullet test</a></li>
+                                                    <li><a href="#">bullet test</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 blue-icon-left">
+                                        <a href="#">
+                                            <div class="featured-content-icon-left">
+                                                <div class="featured-content-icon">
+                                                    <span class="fa fa-calculator" aria-hidden="true"></span>
+                                                </div>
+                                                <div class="featured-content-icon-label">
+                                                    Experiential Learning
+                                                </div>
+                                            </div>
+                                        </a>  
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 gold-icon-right">
+                                        <a href="#">
+                                            <div class="featured-content-icon-right">
+                                                <div class="featured-content-icon">
+                                                    <span class="fa fa-calculator" aria-hidden="true"></span>
+                                                </div>
+                                                <div class="featured-content-icon-label">
+                                                    Faculty Interaction
+                                                </div>
+                                            </div>
+                                        </a>     
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+     
+    <section class="section">
+        <div class="divider-container">
+            <div class="divider" style="background-image:url(../_includes/images/site-wide/oxford-gray-abstract.png)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-8">
+                            <div class="divider-label">
+                                Academics
+                            </div>
+                            <h2 class="divider-heading">Learning that goes sideways does a Mind Good</h2>
+                            <p>Oxford's innovative teaching methods and intensive focus on the liberal arts lets you concentrate on intellectual discovery and experiential learning in your first two years of college study.</p>
+                            <a href="#" class="btn btn-default cta-btn cta">Explore Academics</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section> 
+    
+    <section class="section">
+        <div class="divider-container">
+            <div class="divider divider-with-profiles" style="background-image:url(../_includes/images/sections/about/academics-blue-parallelogram.png)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-8">
+                            <div class="divider-label divider-label-white-text">
+                                Faculty &amp; Teaching
+                            </div>
+                            <h2 class="divider-heading divider-heading-white-text">Faculty Who Major in You</h2>
+                            <p class="divider-p-white-text">Sure, Oxford faculty write books and win prizes. But what they like to do mot - and what they do best - is teach. Oxford faculty are nationally recognized for their commitment to teaching, and lead faculty at other institutions in exploring best practices in college classrooms.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider-with-profiles-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-8">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-4 divider-callout-profile-container">
+                                    <div class="row">
+                                        <div class="divider-callout-profile reveal">
+                                            <div class="col-xs-12 col-sm-3 col-md-12">
+                                                <div class="divider-callout-profile-img">
+                                                    <img src="../_includes/images/sections/about/shapiro.png" alt="Placeholder Image" class="img-responsive">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-9 col-md-12">
+                                                <div class="divider-callout-profile-content">
+                                                    <h4 class="profile-heading">Bill Shapiro</h4>
+                                                    <h5 class="profile-title">Professor of Political Science</h5>
+                                                    <p>Uses literature as diverse as The Taming of the Shrew, Medea, and the Bible in class.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 divider-callout-profile-container">
+                                    <div class="row">
+                                        <div class="divider-callout-profile reveal">
+                                            <div class="col-xs-12 col-sm-3 col-md-12">
+                                                <div class="divider-callout-profile-img">
+                                                    <img src="../_includes/images/sections/about/davis.png" alt="Placeholder Image" class="img-responsive">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-9 col-md-12">
+                                                <div class="divider-callout-profile-content">
+                                                    <h4 class="profile-heading">Maria Davis</h4>
+                                                    <h5 class="profile-title">Senior Lecturer of Spanish</h5>
+                                                    <p>She holds two PhDs and uses both to make her classrooms interesting and innovative.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 divider-callout-profile-container">
+                                    <div class="row">
+                                        <div class="divider-callout-profile reveal">
+                                            <div class="col-xs-12 col-sm-3 col-md-12">
+                                                <div class="divider-callout-profile-img">
+                                                    <img src="../_includes/images/sections/about/seitaridou.png" alt="Placeholder Image" class="img-responsive">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-9 col-md-12">
+                                                <div class="divider-callout-profile-content">
+                                                    <h4 class="profile-heading">Frosso Seitaridou</h4>
+                                                    <h5 class="profile-title">Assistant Professor of Physics</h5>
+                                                    <p>Oversees the program for independent graduate research, SURE-Oxford.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 divider-center-button">
+                                    <a href="#" class="btn btn-default cta-btn cta">Explore Faculty</a>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    
+    <section class="section">
+        <div class="divider-callouts">
+            <div class="divider-callouts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                        <h2 class="heading-a reveal">Experience Oxford</h2>
+                        <p class="divider-p">At Oxford, students experience more interactive types of teaching through classes across disciplines that give them the fundamental concepts and principles of the subjects they're studying but move into the realm of real-world discovery through research or work in community settings.</p>
+                    </div>
+                        <div class="col-xs-12 col-sm-4 divider-callout-container">
+                            <div class="divider-callout-block reveal">
+                                <div class="divider-callout-block-img">
+                                    <img src="https://source.unsplash.com/640x360" alt="Placeholder Image" class="img-responsive">
+                                </div>
+                                <div class="divider-callout-block-content">
+                                    <h4 class="block-heading">Fall play takes on big questions</h4>
+                                    <p>J.B., the Pulitzer and Tony award-winning play by American playwright Archibald MacLeish, is the selection for the Oxford students stage this fall.</p>
+                                    <a class="block-link" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 divider-callout-container">
+                            <div class="divider-callout-block reveal">
+                                <div class="divider-callout-block-img">
+                                    <img src="https://source.unsplash.com/640x360" alt="Placeholder Image" class="img-responsive">
+                                </div>
+                                <div class="divider-callout-block-content">
+                                    <h4 class="block-heading">Fall play takes on big questions</h4>
+                                    <p>J.B., the Pulitzer and Tony award-winning play by American playwright Archibald MacLeish, is the selection for the Oxford students stage this fall.</p>
+                                    <a class="block-link" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 divider-callout-container">
+                            <div class="divider-callout-block reveal">
+                                <div class="divider-callout-block-img">
+                                    <img src="https://source.unsplash.com/640x360" alt="Placeholder Image" class="img-responsive">
+                                </div>
+                                <div class="divider-callout-block-content">
+                                    <h4 class="block-heading">Fall play takes on big questions</h4>
+                                    <p>J.B., the Pulitzer and Tony award-winning play by American playwright Archibald MacLeish, is the selection for the Oxford students stage this fall.</p>
+                                    <a class="block-link" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+    
+    <div class="before-footer-image">
+        <img src="../_includes/images/site-wide/bottom-of-page-abstract.png" alt="" class="img-responsive" />
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-5">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="logo">
+                                <img class="img-responsive" src="../_includes/images/site-wide/Ox_sq_rev.png" />
+                            </div>
+                        </div> 
+                        <div class="col-xs-12 col-sm-offset-2 col-sm-6">
+                            <div class="university-name">
+                                Oxford College of<br />
+                                Emory University
+                            </div>
+                            <div class="address">
+                                110 Few Circle<br /> Oxford, Georgia 30054 USA<br /> 770.784.8888
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-7 footer-links">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="links-list">
+                                <ul>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="links-list">
+                                <ul>
+                                    <li><a href="#">Maps &amp; Directions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-offset-1 col-sm-5">
+                            <div class="social">
+                                <div class="heading">
+                                    Follow us online
+                                </div>
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="sub-footer-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="sub-footer">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="copyright">&copy; Oxford College of Emory University. All Rights Reserved.</div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                    <ul>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Emergency Information</a></li>
+                                    <ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="../_includes/js/main.js"></script>
+  </body>
+</html>
